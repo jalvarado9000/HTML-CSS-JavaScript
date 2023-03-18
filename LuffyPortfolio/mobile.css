@@ -1,0 +1,44 @@
+body{
+	
+	height: rem;
+    margin:0;
+    
+
+	
+}
+
+#container{
+
+	width: 37.5rem;
+	height: 77.5rem;
+	border-radius: 0;
+    text-align: center;
+    
+	
+}
+
+h1{
+    width: 80%;
+    margin-left: 45px;
+    margin-right: 45px;
+    
+
+    
+}
+
+ul , ol{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.mobile-pic{
+	background: url('/images/332740.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+    height:200px;
+	
+   
+ 
+    margin:0 auto;
+}

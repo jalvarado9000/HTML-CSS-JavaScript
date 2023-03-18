@@ -1,0 +1,254 @@
+
+
+/*
+body {
+  background: url('/images/us-collage.jpg');
+  font-family: 'Open Sans', arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+
+* {
+  
+  
+  box-sizing: border-box;
+}
+
+
+#container {
+
+
+  
+  width: 600px;
+  height: 1300px;
+  margin: 100px auto;
+  
+}
+
+#hero img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+
+#card-message{
+    background-color: white;
+    padding: 40px;
+    margin-top: -5px;
+    height: 300px;
+}
+
+  p {
+    font-size: 1rem;
+    line-height: 1.75;
+    margin-bottom: 1.75rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color:#B30961;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  #card-message > aside >.left {
+    float: left;
+    width: 100px;
+    
+  }
+  
+  #card-message >aside > .right {
+    float: right;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .clear{
+    clear: both;
+  }
+
+  #ps{
+    background-color: #EA99B9;
+    margin:-16px 0 -19px 0;
+    text-align: center;
+    
+    
+  }
+
+  #restaurant > iframe{
+    margin:-10px 0 -10px 0;
+    
+  }
+
+  footer{
+    padding-top: 25px;
+    background-color: #D7534E;
+    border-radius:0 0 20px 20px;
+    
+  }
+
+  footer > p{
+   text-align: center;
+  }
+
+  */
+
+
+  html{
+    margin:0;
+    padding:0;
+  }
+
+  body{
+    font-family: 'Open Sans', arial, sans-serif;
+    
+  }
+
+  *,*::before,*::after{
+    box-sizing: border-box;
+  }
+  
+
+  #container {
+
+
+  
+    width: 100%;
+    height: 100%;
+   
+    
+  }
+
+
+  #hero img {
+    
+    width: 100%;
+   /* border-radius: 20px 20px 0 0;*/
+    
+
+  }
+
+  #card-message{
+    background-color: white;
+    padding: 40px;
+    margin-top: -5px;
+    height: 100%;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 1.75rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color:#B30961;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+#card-message >aside{
+  margin-bottom:40px;
+}
+
+
+#card-message >aside > .right {
+  float: right;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 15px;
+ 
+}
+
+.clear{
+  clear: both;
+}
+
+#ps{
+  background-color: #EA99B9;
+  margin:-16px 0 -19px 0;
+  text-align: center;
+  
+  
+}
+
+#restaurant > iframe{
+  margin:-10px 0 -10px 0;
+  
+  width:100%;
+  
+}
+
+footer{
+  padding-top: 25px;
+  background-color: #D7534E;
+ /* border-radius:0 0 20px 20px;*/
+  
+}
+
+footer > p{
+ text-align: center;
+ margin-bottom: 0;
+}
+
+
+@media only screen and (min-width:768px){
+
+
+  body {
+    background: url('/images/us-collage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+  
+  }
+
+  #container {
+    width: 70%;
+    margin: 100% auto;
+    
+  }
+
+  #hero img {
+  border-radius: 20px 20px 0 0;
+  }
+
+  footer{
+    border-radius:0 0 20px 20px;
+    
+  }
+
+
+}
+
+
+@media only screen and (min-width:1440px){
+
+
+  
+
+  #container {
+
+
+  
+ 
+    width: 50%;
+    
+    
+  }
+
+ 
+  
+
+
+
+}

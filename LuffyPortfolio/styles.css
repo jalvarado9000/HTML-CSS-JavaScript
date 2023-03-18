@@ -1,0 +1,31 @@
+#container{
+    background-color: #F2B96C;
+    border-radius: 20px;
+    padding: 20px 20px 20px;
+    color:#16252A;
+    font-size: 20px;
+    width:600px;
+    font-family: "Trirong", serif;
+}
+
+h1{
+    background-color:#E65A3F;
+    border-radius: 20px;
+    padding: 0px 20px 0px;
+    text-align: center;
+    color:black;
+}
+
+
+html{
+    background: url('../images/332740.jpg');
+    background-repeat: no-repeat;
+
+    
+}
+
+a{
+    text-decoration: none;
+    color:#E65A3F;
+    font-weight:900;
+}

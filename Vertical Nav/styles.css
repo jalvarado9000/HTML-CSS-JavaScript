@@ -1,0 +1,31 @@
+
+nav{
+    text-align: center;
+}
+
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+ul{
+    list-style: none;
+    
+   
+}
+
+
+nav > ul > li{
+    border: 5px solid rgb(50, 50, 127);
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    width: 70px;
+    display: inline-block;
+    background-color: rgb(50, 50, 127);
+
+   
+   
+
+
+}

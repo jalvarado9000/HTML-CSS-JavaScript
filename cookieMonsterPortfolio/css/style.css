@@ -1,0 +1,42 @@
+html {
+	
+	background: url('../images/cookie-monster.jpg') no-repeat;
+
+	
+	
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;  
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+h2 {
+	background: #35C0F2;
+	border-radius: 0.625rem;
+	padding: 0.313rem;
+	color: black;
+}
+
+a {
+	color: #35C0F2;
+	text-decoration: none;
+}
+
+#container {
+	background: black;
+	width: 27.5rem;
+	color: white;
+	padding: 0.938rem;
+}
+
+ul{
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+	display:flex;
+	justify-content: center;
+	justify-content: space-around;
+}

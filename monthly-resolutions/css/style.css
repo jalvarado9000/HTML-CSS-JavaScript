@@ -1,0 +1,170 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+
+body{
+     background-color: lightgray;
+     height: 1400px;
+     margin: 50px 100px;
+}
+
+#main{
+     background-color: white;
+     height: 1275px;
+     width:452px;
+     float:left;
+}
+
+#sidebar{
+     background-color: white;
+     height: 600px;
+     float:left;
+     width:300px;
+     margin: 0 10px;
+
+
+}
+.sections{
+     width:450px;
+     margin: 0 1px;
+     padding-top: 30px;
+}
+
+img{
+     margin: 10px 25px;
+     height: 250px;
+     width: 400px;
+}
+
+
+.under-image-description{
+
+ color:lightgrey;
+ font-size: 12px;
+ margin-top: 10px;
+
+ padding-bottom: 10px;
+}
+
+h2,h3,h4,h5,p{
+     margin: 0 25px;
+}
+
+h1,h5{
+     margin: 0 1px;  
+}
+
+
+.image-description{
+ font-size: 12px;
+ margin-top: 10px;
+ border-bottom-style: outset;
+ padding-bottom: 10px;
+}
+
+#dreaming{
+     margin-bottom: 30px;
+}
+
+.sidebarImage{
+     width: 150px;
+     height: 150px;
+     border-radius: 10px;
+     
+     border-radius:50%;
+     margin: 30px 10px;
+     
+}
+
+
+#sidbar-foto-description{
+
+     margin: 0 25px;  
+}
+
+
+
+a{
+     color:orangered;
+     text-decoration: none;
+     
+}
+
+ul{
+     margin: 20px 15px; 
+}
+
+#quote-of-the-day{
+ margin-top: 20px;
+ font-size: 15px;
+}
+
+#quote-author{
+     margin-top: 20px;
+}
+
+.clear{
+     clear:both;
+}
+
+#footer{
+     margin-top: 15px;
+}
+
+.inline{
+     display: inline;
+}
+
+.h5-inline-color-red{
+     color:red;
+     display:inline;
+}
+
+/*
+blockquote{
+    margin: 0 auto 0 2px;
+    border-left: 3.5px solid rgb(192, 191, 191);
+    padding: 0 6px 0 6px;
+    font-style: italic;
+}
+
+*/
+blockquote{
+   
+    border-left: 3.5px solid rgb(192, 191, 191);
+    font-style: italic;
+    margin-left: 25px;
+    padding-left: 10px;
+    font-size:14px;
+
+    
+}
+

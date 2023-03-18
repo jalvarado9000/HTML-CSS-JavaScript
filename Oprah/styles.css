@@ -1,0 +1,17 @@
+	/* Basic CSS comment */	
+    body {
+        background: #BBB;
+        color: white;
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 80px;
+        color: #333	;
+    }
+
+    img{
+        height: 400px;
+        width:400px;
+    }

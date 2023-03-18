@@ -1,0 +1,64 @@
+/*
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+@media (max-width: 390px) {
+  
+  .container{
+    width: 10px;
+  }
+
+
+}
+
+
+
+html{
+  margin:0;
+  padding:0;
+}
+body{
+  margin-top: -100px;
+  padding:0;
+  margin-bottom: -90px;
+ 
+}
+
+.container {
+    width: 10rem;
+    margin:auto;
+    padding:0;
+    width: 100%;
+    
+
+  }
+
+
+
+
+  #hero > img{
+    
+    border-radius: 0;
+  }
+
+  footer{
+    border-radius: 0;
+  }
+
+  .mobile-pic{
+    background: url('/images/us-collage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+    
+     
+   
+      margin:0 auto;
+  }
+
+  .mobile-pic{
+    min-height: 700px;
+    
+  }
+  */
